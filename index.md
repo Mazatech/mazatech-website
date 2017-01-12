@@ -1,6 +1,6 @@
 ## AmanithVG
 
-[AmanithVG](https://) is our commercial implementations of OpenVG 1.1, the application programming interface (API) for hardware accelerated 2D vector and raster graphics, created by the Khronos group.
+[AmanithVG](http://mazatech.com/amanithvg) is our commercial implementations of OpenVG 1.1, the application programming interface (API) for hardware accelerated 2D vector and raster graphics, created by the Khronos group.
 
 AmanithVG SDK includes:
 
@@ -13,11 +13,11 @@ for the platforms \ architectures:
  * Desktop (Win, OS X, Linux) \ x86, x86-64
  * Mobile (iOS, Android, Linux, QNX) \ arm, armv7, aarch64, ppc, mips
 
-more information at [AmanithVG project page](https://).
+more information at [AmanithVG project page](http://mazatech.com/amanithvg).
 
 ## AmanithSVG
 
-[AmanithSVG](https://) is our commercial middleware for reading and rendering SVG files, available as a standalone library and as Unity plugin. Based on static features of SVG Tiny 1.2, plus some static features of SVG Full 1.1.
+[AmanithSVG](http://mazatech.com/amanithsvg) is our commercial middleware for reading and rendering SVG files, available as a standalone library and as Unity plugin. Based on static features of SVG Tiny 1.2, plus some static features of SVG Full 1.1.
 
 AmanithSVG SDK includes:
 
@@ -30,7 +30,7 @@ for the platforms \ architectures:
  * Desktop (Win, OS X, Linux) \ x86, x86-64
  * Mobile (iOS, Android, Linux, QNX) \ arm, armv7, aarch64, ppc, mips
 
-more information at [AmanithSVG project page](https://).
+more information at [AmanithSVG project page](http://mazatech.com/amanithsvg).
 
 ## About Us
 
