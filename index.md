@@ -11,7 +11,7 @@ AmanithVG SDK includes:
 for the platforms \ architectures:
 
  * Desktop (Win, OS X, Linux) \ x86, x86-64
- * Mobile (iOS, Android, Linux, QNX) \ arm, armv7, ppc, mips
+ * Mobile (iOS, Android, Linux, QNX) \ arm, armv7, aarch64, ppc, mips
 
 more information at [AmanithVG project page](https://).
 
@@ -28,7 +28,7 @@ AmanithSVG SDK includes:
 for the platforms \ architectures:
 
  * Desktop (Win, OS X, Linux) \ x86, x86-64
- * Mobile (iOS, Android, Linux, QNX) \ arm, armv7, ppc, mips
+ * Mobile (iOS, Android, Linux, QNX) \ arm, armv7, aarch64, ppc, mips
 
 more information at [AmanithSVG project page](https://).
 
