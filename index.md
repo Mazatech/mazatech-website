@@ -20,6 +20,7 @@ more information at [AmanithVG project page](https://).
 [AmanithSVG](https://) is our commercial middleware for reading and rendering SVG files, available as a standalone library and as Unity plugin. Based on static features of SVG Tiny 1.2, plus some static features of SVG Full 1.1.
 
 AmanithSVG SDK includes:
+
  * Libraries
  * Documentation
  * SVG player example
