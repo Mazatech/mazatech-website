@@ -1,5 +1,3 @@
-test 
-
 ## AmanithVG<a class="jumptarget" name="amanithvg_section"></a>
 
 [AmanithVG](http://mazatech.com/amanithvg) is our commercial implementation of [OpenVG 1.1](https://www.khronos.org/openvg/), the application programming interface (API) for hardware accelerated 2D vector and raster graphics, created by the [Khronos](https://www.khronos.org) group.
