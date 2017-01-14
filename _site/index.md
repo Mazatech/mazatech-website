@@ -1,36 +1,38 @@
 ## AmanithVG <a class="jumptarget" name="amanithvg_section"></a>
 
-[AmanithVG](http://mazatech.com/amanithvg) is our commercial implementation of [OpenVG 1.1](https://www.khronos.org/openvg/), the application programming interface (API) for hardware accelerated 2D vector and raster graphics, created by the [Khronos](https://www.khronos.org) group.
+[AmanithVG](http://mazatech.com/amanithvg) is our commercial implementation of [OpenVG 1.1](https://www.khronos.org/openvg/), the application programming interface (API) for hardware accelerated 2D vector and raster graphics, created by the [Khronos](https://www.khronos.org) group. AmanithVG implements two different rendering backends: SRE (pure software) and GLE (OpenGL\|ES aided) in order to provide the highest rendering quality at top speed on any device.  
+The library is pure ANSI C99 and depends only on very few standard libc functions.  
 
-[AmanithVG Evaluation SDK](http://www.mazatech.com/downloads/amanithvg_v4_0_0_968_eval.zip) includes:
+The [AmanithVG Evaluation SDK](http://www.mazatech.com/downloads/amanithvg_v4_0_0_968_eval.zip) is available for download and includes:
 
 * Evaluation library (bin) for:
-	* Desktop (Win, OS X, Linux) \ x86, x86\_64
-	* Mobile (iOS, Android, Linux, QNX) \ arm, armv7, aarch64, ppc, mips
+	* Desktop (Win, OS X, Linux) on: x86, x86\_64
+	* Mobile (iOS, Android, Linux, QNX) on: arm, armv7, aarch64, ppc, mips
 * Tiger example (bin+src) for:
-	* Desktop (Win, OS X, Linux) \ x86, x86\_64
-	* Mobile (iOS, Android, Linux, QNX) \ arm, armv7, aarch64, ppc, mips
+	* Desktop (Win, OS X, Linux) on: x86, x86\_64
+	* Mobile (iOS, Android, Linux, QNX) on: arm, armv7, aarch64, ppc, mips
 * Documentation
 
-More information at [AmanithVG project page](http://mazatech.com/amanithvg). Interested in licensing? Just drop an [eMail](mailto:sales@mazatech.com?subject=AmanithVG%20Licensing).
+More information at [AmanithVG project page](http://mazatech.com/amanithvg). Interested in licensing? Send us an [eMail](mailto:sales@mazatech.com?subject=AmanithVG%20Licensing).
 
 ---
   
 ## AmanithSVG <a class="jumptarget" name="amanithsvg_section"></a>
 
-[AmanithSVG](http://mazatech.com/amanithsvg) is our commercial middleware for reading and rendering [SVG](https://it.wikipedia.org/wiki/Scalable_Vector_Graphics) files, available as a standalone library and as [Unity plugin](https://www.assetstore.unity3d.com/en/#!/content/19822). Based on static features of [SVG Tiny 1.2](https://www.w3.org/TR/SVGTiny12/), plus some static features of [SVG Full 1.1](https://www.w3.org/TR/SVG/) .
+[AmanithSVG](http://mazatech.com/amanithsvg) is our commercial middleware for reading and rendering [SVG](https://it.wikipedia.org/wiki/Scalable_Vector_Graphics) files, available as a standalone library and as [Unity plugin](https://www.assetstore.unity3d.com/en/#!/content/19822). Based on static features of [SVG Tiny 1.2](https://www.w3.org/TR/SVGTiny12/), plus some static features of [SVG Full 1.1](https://www.w3.org/TR/SVG/).  
+The library is pure ANSI C++ and depends on AmanithVG for the rendering and [PugiXML](http://pugixml.org) or [TinyXML-2](http://www.grinninglizard.com/tinyxml2/) for XML parsing. 
 
-[AmanithSVG Evaluation SDK](http://www.mazatech.com/downloads/amanithsvg_v1_0_0_336_eval.zip) includes:
+[AmanithSVG Evaluation SDK](http://www.mazatech.com/downloads/amanithsvg_v1_0_0_336_eval.zip) is available for download and includes:
 
 * Evaluation library (bin) for:
-	* Desktop (Win, OS X, Linux) \ x86, x86\_64
-	* Mobile (iOS, Android, Linux, QNX) \ arm, armv7, aarch64, ppc, mips
+	* Desktop (Win, OS X, Linux) on: x86, x86\_64
+	* Mobile (iOS, Android, Linux, QNX) on: arm, armv7, aarch64, ppc, mips
 * SVG Player example (bin+src) for:
-	* Desktop (Win, OS X, Linux) \ x86, x86\_64
-	* Mobile (iOS, Android, Linux, QNX) \ arm, armv7, aarch64, ppc, mips
+	* Desktop (Win, OS X, Linux) on: x86, x86\_64
+	* Mobile (iOS, Android, Linux, QNX) on: arm, armv7, aarch64, ppc, mips
 * Documentation
 
-More information at [AmanithSVG project page](http://mazatech.com/amanithsvg). Interested in licensing? Just drop an [eMail](mailto:sales@mazatech.com?subject=AmanithSVG%20Licensing).
+More information at [AmanithSVG project page](http://mazatech.com/amanithsvg). Interested in licensing? Send us an [eMail](mailto:sales@mazatech.com?subject=AmanithSVG%20Licensing).
 
 ---
 
