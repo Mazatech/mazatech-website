@@ -1,5 +1,5 @@
 title: Mazatech
-description: 2D vector graphic engines company
+description: 2D vector graphics engines company
 google_analytics: UA-90357630-1
 copyright: (C) 2005-2017 Mazatech, S.r.l.
 vatid: VAT ID IT03498460405
@@ -11,8 +11,7 @@ exclude:
   - README.md
 sass:
   sass_dir: _includes
-  style: compressed
-# _layouts/compress.html
+  #style: compressed
 compress_html:
   clippings: all
   endings: all

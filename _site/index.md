@@ -1,4 +1,4 @@
-## AmanithVG <a class="jumptarget" name="amanithvg_section"></a>
+## AmanithVG<a class="jumptarget" name="amanithvg_section"></a>
 
 [AmanithVG](http://mazatech.com/amanithvg) is our commercial implementation of [OpenVG 1.1](https://www.khronos.org/openvg/), the application programming interface (API) for hardware accelerated 2D vector and raster graphics, created by the [Khronos](https://www.khronos.org) group. AmanithVG implements two different rendering backends: SRE (pure software) and GLE (OpenGL\|ES aided) in order to provide the highest rendering quality at top speed on any device.  
 The library is pure ANSI C99 and depends only on very few standard libc functions.  
@@ -55,24 +55,3 @@ Italy
 ###### Email:  
 [info@mazatech.com](mailto:info@mazatech.com)  
 
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  

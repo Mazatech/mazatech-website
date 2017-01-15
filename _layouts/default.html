@@ -1,6 +1,4 @@
----
-layout: compress
----
+
 <!doctype html>
 <html amp>
   <head>
@@ -46,11 +44,12 @@ layout: compress
         </input>
 
         <nav id="nav_bar">
+          <ul>
             <li class="title"><a class="menu_item" href="#amanithvg_section">AmanithVG</a></li>
             <li class="title"><a class="menu_item" href="#amanithsvg_section">AmanithSVG</a></li>
             <li class="title"><a class="menu_item" href="#about_section">About Us</a></li>
             <li class="title"><a class="menu_item" href="#contacts_section">Contacts</a></li>
-
+          </ul>
         <!--
           <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
           {% if site.show_downloads %}
@@ -64,9 +63,11 @@ layout: compress
 
       <div id="footer">
         <nav>
-          <li>{{ site.copyright }}</li>
-          <li>{{ site.vatid }}</li>
-          <li>{{ site.rights }}</li>
+          <ul>
+            <li>{{ site.copyright }}</li>
+            <li>{{ site.vatid }}</li>
+            <li>{{ site.rights }}</li>
+          </ul>
         </nav>
       </div><!-- end header -->
 
