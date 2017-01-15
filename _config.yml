@@ -11,7 +11,7 @@ exclude:
   - README.md
 sass:
   sass_dir: _includes
-  #style: compressed
+  style: compressed
 compress_html:
   clippings: all
   endings: all
