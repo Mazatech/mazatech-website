@@ -8,7 +8,6 @@ rights: All rights reserved
 exclude:
   - Gemfile
   - Gemfile.lock
-  - Guardfile
   - README.md
 sass:
   sass_dir: _includes
