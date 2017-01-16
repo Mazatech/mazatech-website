@@ -1,7 +1,7 @@
-## AmanithVG<a class="jumptarget" name="amanithvg_section"></a>
+## AmanithVG <a class="jumptarget" name="amanithvg_section"></a>
 
-[AmanithVG](http://mazatech.com/amanithvg) is our commercial implementation of [OpenVG 1.1](https://www.khronos.org/openvg/), the application programming interface (API) for hardware accelerated 2D vector and raster graphics, created by the [Khronos](https://www.khronos.org) group. AmanithVG implements two different rendering backends: SRE (pure software) and GLE (OpenGL\|ES aided) in order to provide the highest rendering quality at top speed on any device.  
-The library is pure ANSI C99 and depends only on very few standard libc functions.  
+[AmanithVG](http://mazatech.com/amanithvg) is a 2D vector graphics library that implements [OpenVG 1.1](https://www.khronos.org/openvg/), the standard, royalty-free, cross-platform API for hardware accelerated 2D vector and raster graphics, created by the [Khronos](https://www.khronos.org) group. AmanithVG comes with two different rendering backends: SRE (pure software) and GLE (OpenGL\|ES aided) in order to provide the highest rendering quality at top speed on any device.  
+The library is witten in pure ANSI C and depends only on a very limited set of standard libc functions, that could be mapped on custom functions too.
 
 The [AmanithVG Evaluation SDK](http://www.mazatech.com/downloads/amanithvg_v4_0_0_968_eval.zip) is available for download and includes:
 
@@ -19,8 +19,8 @@ More information at [AmanithVG project page](http://mazatech.com/amanithvg). Int
   
 ## AmanithSVG <a class="jumptarget" name="amanithsvg_section"></a>
 
-[AmanithSVG](http://mazatech.com/amanithsvg) is our commercial middleware for reading and rendering [SVG](https://it.wikipedia.org/wiki/Scalable_Vector_Graphics) files, available as a standalone library and as [Unity plugin](https://www.assetstore.unity3d.com/en/#!/content/19822). Based on static features of [SVG Tiny 1.2](https://www.w3.org/TR/SVGTiny12/), plus some static features of [SVG Full 1.1](https://www.w3.org/TR/SVG/).  
-The library is pure ANSI C++ and depends on AmanithVG for the rendering and [PugiXML](http://pugixml.org) or [TinyXML-2](http://www.grinninglizard.com/tinyxml2/) for XML parsing. 
+[AmanithSVG](http://mazatech.com/amanithsvg) is a middleware for reading and rendering [SVG](https://it.wikipedia.org/wiki/Scalable_Vector_Graphics) files, available as a standalone library and as [Unity plugin](https://www.assetstore.unity3d.com/en/#!/content/19822). Based on static features of [SVG Tiny 1.2](https://www.w3.org/TR/SVGTiny12/), plus some static features of [SVG Full 1.1](https://www.w3.org/TR/SVG/).  
+The library is written in pure ANSI C++ and depends on AmanithVG SRE for the rendering and [PugiXML](http://pugixml.org) or [TinyXML-2](http://www.grinninglizard.com/tinyxml2/) for XML parsing.
 
 [AmanithSVG Evaluation SDK](http://www.mazatech.com/downloads/amanithsvg_v1_0_0_336_eval.zip) is available for download and includes:
 
@@ -38,7 +38,7 @@ More information at [AmanithSVG project page](http://mazatech.com/amanithsvg). I
 
 ## About Us <a class="jumptarget" name="about_section"></a>
 
-Mazatech is an italian company founded in 2005 by a team of young professionals, who have been working together developing technologies for realtime vector graphic since 1998. The company mission is to innovate into 2D vector graphic rendering field, taking advantage also of accelerated 3D chipsets and GPUs. We believe that near future is going to hit this way at all levels: desktop, handheld, mobile. We recognize open standards as being the key, so we actively support standards like OpenVG, SVG, OpenGL, OpenGL ES, Java(FX) among others. Mazatech develops the technology for enabling fast and high quality vector graphic rendering everywhere.
+Mazatech is an italian company founded in 2005 by a team of young professionals, who have been working together developing technologies for realtime vector graphics since 1998. The company mission is to innovate into 2D vector graphics rendering field, taking advantage also of accelerated 3D chipsets and GPUs. We believe that near future is going to hit this way at all levels: desktop, handheld, mobile. We recognize open standards as being the key, so we actively support standards like OpenVG, SVG, OpenGL, OpenGL ES, Java(FX) among others. Mazatech develops the technology for enabling fast and high quality vector graphics rendering everywhere.
 
 ---
 
