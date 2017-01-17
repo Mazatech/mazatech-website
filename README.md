@@ -4,8 +4,8 @@ A 2D vector graphics engines company.
 
 The creators of:
 
-* [AmanithVG](http://www.mazatech.com/amanithvg): a blazing fast OpenVG 1.1 C library.
-* [AmanithSVG](http://www.mazatech.com/amanithsvg): a middleware for SVG rendering.
+* [AmanithVG](http://www.mazatech.com/amanithvg): a blazing fast OpenVG 1.1 
+* [AmanithSVG](http://www.mazatech.com/amanithsvg): SVG rendering engine on top of OpenVG API
 
 ## AmanithVG <a class="jumptarget" name="amanithvg_section"></a>
 
