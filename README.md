@@ -1,3 +1,7 @@
+# Mazatech 
+
+A 2D vector graphics engines company, the creators of AmanithVG: an OpenVG 1.1 library and AmanithSVG: a middleware for SVG rendering.
+
 ## AmanithVG <a class="jumptarget" name="amanithvg_section"></a>
 
 [AmanithVG](http://mazatech.com/amanithvg) is a 2D vector graphics library that implements [OpenVG 1.1](https://www.khronos.org/openvg/): the standard, royalty-free, cross-platform API for hardware accelerated 2D vector and raster graphics, created by [Khronos group](https://www.khronos.org); AmanithVG comes with two different rendering backends: SRE (pure software) and GLE (OpenGL\|ES aided) in order to provide the highest rendering quality at top speed on any device.  
