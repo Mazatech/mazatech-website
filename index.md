@@ -34,7 +34,7 @@ The AmanithVG SDK includes:
 	* Mobile (iOS, Android, Linux, QNX) on: arm, armv7, aarch64, ppc, mips
 * Documentation
 
-Download [AmanithSVG Evaluation SDK](http://www.mazatech.com/downloads/amanithsvg_v1_0_0_336_eval.zip) now!
+Download [AmanithSVG Evaluation SDK](https://github.com/Mazatech/amanithsvg/releases/download/v1.0.0.336/amanithsvg_v1_0_0_336_eval.zip) now!
 
 More information at [AmanithSVG project page](http://www.amanithsvg.com). Interested in licensing? Send us an [eMail](mailto:info@mazatech.com?subject=AmanithSVG%20Licensing).
 
