@@ -1,20 +1,22 @@
-title: Mazatech
-description: 2D vector graphics engines company
-description2: the creators of amanithvg openvg 1.1 library and amanithsvg an svg rendering middlware and unity plugin
-google_analytics: UA-90357630-1
-copyright: (C) 2005-2017 Mazatech, S.r.l.
-vatid: VAT ID IT03498460405
-rights: All rights reserved
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-sass:
-  sass_dir: _includes
-  style: compressed
-compress_html:
-  clippings: all
-  endings: all
-  comments: ["<!--", "-->"]
-gems: 
-  - jekyll-sitemap
+# Site settings
+title: "Mazatech, 2D vector graphics engines company"
+description: "A software company focused on the development of innovative solutions for 2D vector graphics realtime rendering"
+description2:
+url: https://www.mazatech.com
+enforce_ssl: www.mazatech.com
+
+# Company settings
+company_name: "MAZATECH"
+company_name_ext: "Mazatech Srl"
+company_vatid: "IT03498460405"
+company_watchword: "2D vector graphics engines company"
+company_email: "info@mazatech.com"
+facebook_username: "mazatechsrl"
+twitter_username: "Mazatech1"
+github_username: "Mazatech"
+
+# Google-analytics
+google-analytics:
+  id: "UA-90357630-1"
+
+exclude: ['package.json', 'src' , 'node_modules']

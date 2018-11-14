@@ -1,0 +1,27 @@
+{
+  "name": "particle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Randecker",
+  "license": "ISC",
+  "dependencies": {
+    "tunnel-agent": "^0.6.0",
+    "browser-sync": "^2.18.6",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
