@@ -15,6 +15,57 @@
   <meta property="og:image" content="{{site.url}}/assets/images/mazatech-screenshot.png"/>
   <meta property="fb:admins" content="749371588"/>
 
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "{{site.url}}{{page.url}}",
+    "email": "{{site.company_email}}",
+    "logo": "{{site.url}}/assets/images/mazatech_logo.png",
+    "founder": [{
+      "@type": "Person",
+      "givenName": "{{site.company_founder_1_given_name}}",
+      "familyName": "{{site.company_founder_1_family_name}}"
+    },{
+      "@type": "Person",
+      "givenName": "{{site.company_founder_2_given_name}}",
+      "familyName": "{{site.company_founder_2_family_name}}"
+    }],
+    "foundingDate": "{{site.company_founding_date}}",
+    "foundingLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "{{site.company_country}}",
+        "addressLocality": "{{site.company_city}}",
+        "addressRegion": "{{site.company_province}}",
+        "postalCode": "{{site.company_postalcode}}",
+        "streetAddress": "{{site.company_street}}"
+      }
+    },
+    "address": [{
+      "@type": "PostalAddress",
+      "addressCountry": "{{site.company_country}}",
+      "addressLocality": "{{site.company_city}}",
+      "addressRegion": "{{site.company_province}}",
+      "postalCode": "{{site.company_postalcode}}",
+      "streetAddress": "{{site.company_street}}"
+    }],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "{{site.company_telephone}}",
+      "contactType": "customer service",
+      "availableLanguage": [
+        "English",
+        "Italian"
+      ]
+    }]
+  }
+  </script>
+    
+
+
+
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
