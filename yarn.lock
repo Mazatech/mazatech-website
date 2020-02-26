@@ -4217,7 +4217,7 @@ request@2, request@^2.61.0, request@^2.79.0:
     oauth-sign "~0.8.1"
     qs "~6.3.0"
     stringstream "~0.0.4"
-    tough-cookie "~2.3.0"
+    tough-cookie "^2.3.3"
     tunnel-agent "~0.4.1"
     uuid "^3.0.0"
 
@@ -4243,7 +4243,7 @@ request@2.78.0:
     oauth-sign "~0.8.1"
     qs "~6.3.0"
     stringstream "~0.0.4"
-    tough-cookie "~2.3.0"
+    tough-cookie "^2.3.3"
     tunnel-agent "~0.4.1"
 
 require-directory@^2.1.1:
@@ -4924,9 +4924,9 @@ to-through@^2.0.0:
   dependencies:
     through2 "^2.0.3"
 
-tough-cookie@~2.3.0:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.2.tgz#f081f76e4c85720e6c37a5faced737150d84072a"
+tough-cookie@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.3.tgz#0b618a5565b6dea90bf3425d04d55edc475a7561"
   dependencies:
     punycode "^1.4.1"
 
