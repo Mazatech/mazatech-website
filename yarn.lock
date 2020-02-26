@@ -1517,9 +1517,9 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-express@2.5.x:
-  version "2.5.11"
-  resolved "https://registry.yarnpkg.com/express/-/express-2.5.11.tgz#4ce8ea1f3635e69e49f0ebb497b6a4b0a51ce6f0"
+express@3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/express/-/express-2.5.11.tgz#f1c8e1c991a444dd7ae331bfb7f1a4557fcfd2ee"
   dependencies:
     connect "1.x"
     mime "1.4.1"
@@ -5248,7 +5248,7 @@ weinre@^2.0.0-pre-I0Z7U9OV:
   version "2.0.0-pre-I0Z7U9OV"
   resolved "https://registry.yarnpkg.com/weinre/-/weinre-2.0.0-pre-I0Z7U9OV.tgz#fef8aa223921f7b40bbbbd4c3ed4302f6fd0a813"
   dependencies:
-    express "2.5.x"
+    express "3.11.0"
     nopt "3.0.x"
     underscore "1.7.x"
 
