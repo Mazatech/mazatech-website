@@ -1,0 +1,18 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Security contact of Mazatech S.r.l. (RFC 9116). The copy published at the Canonical URL is signed with the OpenPGP
+# key of the Encryption URL, fingerprint 6079 67AC 92E9 DB96 C3E3  7754 1DD5 A52E B776 3BA3.
+Contact: mailto:security@mazatech.com
+Expires: 2027-10-01T00:00:00Z
+Encryption: https://mazatech.com/security/pgp-key.asc
+Preferred-Languages: en, it
+Canonical: https://mazatech.com/.well-known/security.txt
+Policy: https://mazatech.com/security/
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRgeWeskunblsPjd1Qd1aUut3Y7owUCatCDigAKCRAd1aUut3Y7
+ozpQAQCYQVIbemMTNatB5X7kNaiNTJZb0FkZCnsocIyDNlEKOQEA+UPKfDl5+uSc
+S4VM4eNKosH9R2JSkgi8FPE+751b7ws=
+=YDIp
+-----END PGP SIGNATURE-----

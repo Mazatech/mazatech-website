@@ -1,5 +1,14 @@
 /* sweetScroll load */
 document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('img[data-fallback-src]').forEach(function (image) {
+    function useFallback() {
+      image.removeEventListener('error', useFallback);
+      image.src = image.dataset.fallbackSrc;
+    }
+    image.addEventListener('error', useFallback);
+    if (image.complete && image.naturalWidth === 0) useFallback();
+  });
+
   const sweetScroll = new SweetScroll({/* some options */});
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */

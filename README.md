@@ -70,3 +70,86 @@ Italy
 
 ###### Social:  
 [https://www.facebook.com/mazatechsrl/](https://www.facebook.com/mazatechsrl/)  
+
+## Build and local preview
+
+Use Node.js 22 (see `.nvmrc`), npm 10 or newer, Ruby 4.0.7 and Bundler.
+Ruby installations need development headers and a compiler when installing native gems.
+
+```sh
+npm ci
+bundle install
+npm run build
+npm run serve
+```
+
+`npm run build` compiles the assets and renders Jekyll into `_site/`.
+The preview binds only to `127.0.0.1:4000`, watches source files and rebuilds
+automatically. Refresh the browser to see changes: inline-script-based LiveReload
+is deliberately disabled so the production Content Security Policy remains active.
+The existing Sass `@import` syntax emits deprecation warnings; it still builds
+with the locked Sass version and does not require changing the page styles.
+
+Individual asset commands: `npm run css`, `npm run js`, `npm run fonts`,
+`npm run images`, `npm run svg`. Images and fonts are copied without changing
+their source bytes. Gulp, BrowserSync, Node Sass and the Yarn lockfile have been
+replaced by a small Node.js runner and a single npm lockfile.
+
+## Security maintenance and deployment
+
+```sh
+npm audit
+bundle exec bundler-audit check --update
+```
+
+Dependabot checks npm, Bundler and GitHub Actions weekly. The Pages workflow
+audits both dependency sets, builds assets and Jekyll, and deploys only `master`.
+Pull requests build without deployment permissions. Actions are pinned to commit
+SHAs, checkout credentials are not persisted, and deployment uses GitHub OIDC.
+
+Before publishing this migration, select **Settings → Pages → Build and deployment
+→ Source → GitHub Actions**. The old branch-based GitHub Pages build cannot use
+this updated Jekyll toolchain. Keep **Enforce HTTPS** enabled and restrict the
+`github-pages` deployment environment to `master`. No production settings or
+deployment are changed by building locally.
+
+The pages enforce a CSP that blocks inline executable JavaScript, restricts
+external resources, and disables objects, frames, forms and base-URL overrides.
+Inline styles remain permitted for the existing layout and particle animation.
+Particles.js 2.0.0 is served locally, with its MIT license beside the script,
+rather than executing a CDN response. New-window links use `noopener noreferrer`.
+Consent is matched by exact cookie name, persists with `SameSite=Lax` and
+`Secure` on HTTPS, and gates the existing anonymized analytics loader.
+
+The existing Universal Analytics property has not been migrated or replaced.
+The browser smoke check verified consent gating and loader initialization, but
+the external `analytics.js` request was refused in the verification environment;
+successful collection of analytics is not verified.
+
+### HTTP response headers
+
+GitHub Pages does not support repository-defined response headers. The public
+site is behind Cloudflare; configure the following response headers there before
+considering infrastructure hardening complete:
+
+```text
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none'
+Permissions-Policy: camera=(), microphone=(), geolocation=()
+```
+
+The additional CSP header complements the resource policy in the HTML.
+`frame-ancestors`, HSTS and `nosniff` cannot be implemented with HTML meta tags.
+Do not enable HSTS `includeSubDomains` or preload without first reviewing all
+subdomains. These Cloudflare settings are outside this repository.
+
+### Vulnerability disclosure files
+
+The supplied policy is rendered at `/security/`; its wording is unchanged.
+`/.well-known/security.txt` and `/security/pgp-key.asc` are copied unchanged,
+including the signed contact file. Its expiry is **2027-10-01**: renew and sign it
+before that date. Preserve `.well-known` when packaging the Pages artifact.
+Build scripts, manifests, lockfiles, dependencies and repository metadata are
+excluded from the public site. `_site/` is generated, not versioned.

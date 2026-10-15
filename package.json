@@ -3,25 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run assets && bundle exec jekyll build",
+    "assets": "node scripts/build.js build",
+    "buildNoimg": "node scripts/build.js buildNoimg",
+    "css": "node scripts/build.js css",
+    "js": "node scripts/build.js js",
+    "fonts": "node scripts/build.js fonts",
+    "images": "node scripts/build.js images",
+    "svg": "node scripts/build.js svg",
+    "serve": "node scripts/build.js serve"
   },
   "author": "Nathan Randecker",
   "license": "ISC",
-  "dependencies": {
-    "tunnel-agent": "^0.6.0",
-    "browser-sync": "^2.18.6",
-    "gulp-cli": "^2.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^2.0.0",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-newer": "^1.3.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.0"
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
   },
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "csso": "^5.0.5",
+    "sass": "^1.105.1",
+    "terser": "^5.51.2"
   }
 }

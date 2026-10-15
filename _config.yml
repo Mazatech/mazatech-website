@@ -31,4 +31,32 @@ github_username: "Mazatech"
 google-analytics:
   id: "UA-90357630-1"
 
-exclude: ['package.json', 'src' , 'node_modules']
+# Keep repository, source, dependency, and security tooling out of the public site.
+include:
+  - .well-known
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - npm-shrinkwrap.json
+  - yarn.lock
+  - pnpm-lock.yaml
+  - README.md
+  - LICENSE.txt
+  - SECURITY.md
+  - CHANGELOG.md
+  - gulpfile.js
+  - src
+  - node_modules
+  - vendor
+  - .bundle
+  - .github
+  - .git
+  - .gitignore
+  - .jekyll-cache
+  - .sass-cache
+  - coverage
+  - scripts
+  - test
+  - tests
