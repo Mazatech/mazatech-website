@@ -148,6 +148,8 @@ subdomains. These Cloudflare settings are outside this repository.
 ### Vulnerability disclosure files
 
 The supplied policy is rendered at `/security/`; its wording is unchanged.
+The policy layout uses Cloudflare's `email_off` markers so the security contact
+remains readable in the returned HTML without JavaScript or email obfuscation.
 `/.well-known/security.txt` and `/security/pgp-key.asc` are copied unchanged,
 including the signed contact file. Its expiry is **2027-10-01**: renew and sign it
 before that date. Preserve `.well-known` when packaging the Pages artifact.
