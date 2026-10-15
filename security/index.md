@@ -6,13 +6,13 @@ permalink: /security/
 
 # ESCHER security policy
 
-This is the coordinated vulnerability disclosure (CVD) policy of ESCHER, the 2D vector graphics library of Mazatech S.r.l. It is published at <https://mazatech.com/security/>; the security contact of the domain `mazatech.com` is <https://mazatech.com/.well-known/security.txt>. Vulnerabilities are disclosed according to ISO/IEC 29147 and handled according to ISO/IEC 30111.
+This is the coordinated vulnerability disclosure (CVD) policy of ESCHER, the 2D vector graphics library of Mazatech S.r.l. It is published at <https://www.mazatech.com/security/>; the security contact of the domain `mazatech.com` is <https://www.mazatech.com/.well-known/security.txt>. Vulnerabilities are disclosed according to ISO/IEC 29147 and handled according to ISO/IEC 30111.
 
 ## Reporting a vulnerability
 
 Write to `security@mazatech.com`, encrypted with the OpenPGP key of that address:
 
-- Key: <https://mazatech.com/security/pgp-key.asc>
+- Key: <https://www.mazatech.com/security/pgp-key.asc>
 - Fingerprint: `6079 67AC 92E9 DB96 C3E3  7754 1DD5 A52E B776 3BA3`
 
 Check the fingerprint before you encrypt. Write in English or Italian, and include what you have of:

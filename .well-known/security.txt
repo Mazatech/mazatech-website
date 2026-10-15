@@ -5,14 +5,14 @@ Hash: SHA512
 # key of the Encryption URL, fingerprint 6079 67AC 92E9 DB96 C3E3  7754 1DD5 A52E B776 3BA3.
 Contact: mailto:security@mazatech.com
 Expires: 2027-10-01T00:00:00Z
-Encryption: https://mazatech.com/security/pgp-key.asc
+Encryption: https://www.mazatech.com/security/pgp-key.asc
 Preferred-Languages: en, it
-Canonical: https://mazatech.com/.well-known/security.txt
-Policy: https://mazatech.com/security/
+Canonical: https://www.mazatech.com/.well-known/security.txt
+Policy: https://www.mazatech.com/security/
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQRgeWeskunblsPjd1Qd1aUut3Y7owUCatCDigAKCRAd1aUut3Y7
-ozpQAQCYQVIbemMTNatB5X7kNaiNTJZb0FkZCnsocIyDNlEKOQEA+UPKfDl5+uSc
-S4VM4eNKosH9R2JSkgi8FPE+751b7ws=
-=YDIp
+iHUEARYKAB0WIQRgeWeskunblsPjd1Qd1aUut3Y7owUCatCXXgAKCRAd1aUut3Y7
+owRKAQDJ1b+LTG89mGRVvAKT5zuGoxaXB/O8ZbqlrvqIhQ9RBAD+ORgSj0UGENXO
+VwNfeMuezw5Nf3BkHDrTcgC/OLxD+gE=
+=mgzE
 -----END PGP SIGNATURE-----
